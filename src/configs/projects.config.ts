@@ -7,7 +7,7 @@ export const SCROLL_PROJECTS: ProjectInfoWithInvests[] = [
     logoURI:
       "https://static.debank.com/image/project/logo_url/era_syncswap/ee418f0e253f581088c7cfbe7b40760f.png",
     subgraphUrl:
-      "https://api.studio.thegraph.com/query/67380/test-syncswap-scroll/v0.4.3",
+      "https://api.studio.thegraph.com/query/73090/test-syncswap-scroll/v0.1.1",
     invests: [
       {
         name: "Scroll-SyncSwap-USDT-wstETH",
@@ -284,7 +284,7 @@ export const SCROLL_PROJECTS: ProjectInfoWithInvests[] = [
     logoURI:
       "https://static.debank.com/image/project/logo_url/ambient/c3a293380b2dd3aee35f0e8ac9bee9bc.png",
     subgraphUrl:
-      "https://api.studio.thegraph.com/query/70792/test-ambient-scroll/v0.4.0",
+      "https://api.studio.thegraph.com/query/73090/test-ambient-scroll/v0.1.0",
     invests: [
       {
         name: "Scroll-Ambient-USDT-wstETH",
@@ -618,7 +618,7 @@ export const SCROLL_PROJECTS: ProjectInfoWithInvests[] = [
     logoURI:
       "https://static.debank.com/image/project/logo_url/uniswap3/87a541b3b83b041c8d12119e5a0d19f0.png",
     subgraphUrl:
-      "https://api.studio.thegraph.com/query/67380/test-uniswap-v3-scroll/v0.4.1",
+      "https://api.studio.thegraph.com/query/73090/test-uniswap-v3-scroll/v0.1.1",
     invests: [
       {
         name: "Scroll-UniswapV3-USDC-WBTC-3000",

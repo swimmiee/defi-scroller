@@ -1,4 +1,4 @@
-# DeFi Lens: The first protocol-tailored PnL tracker
+# DeFi Scroller: The first protocol-tailored PnL tracker
 Scroll V0rtex Hackathon
 
 # Subgraph Repo

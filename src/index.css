@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  background-color: #fafafa;
+}
+
+* {
+  font-family: "Outfit", system-ui, -apple-system;
+}
+
+.btn {
+  @apply border bg-white hover:bg-primary-200 text-neutral-800 font-medium py-2 rounded-lg;
+}

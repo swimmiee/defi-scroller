@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Input } from "../Input";
 import { useNavigate } from "react-router-dom";
 import { isAddress } from "ethers";
-import { HotPositions } from "components/features/hotPositions";
 
 interface SearchProps {
   address: string;

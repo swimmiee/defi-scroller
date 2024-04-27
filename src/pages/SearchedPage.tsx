@@ -1,6 +1,5 @@
 import { MaxWidth } from "components/layout/MaxWidth";
 import { Header } from "components/layout/Header";
-import { Search } from "../components/features/Search";
 import { useMatch } from "react-router-dom";
 import { PositionsList } from "components/features/positionsList";
 import { HotPositions } from "components/features/hotPositions";

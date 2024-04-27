@@ -7,7 +7,7 @@ import { PositionInfo } from "./info";
 
 export const PositionDetails = () => {
   const loc = useLocation();
-  const [position, setPosition] = useState<ParsedPosition>(
+  const [position, _setPosition] = useState<ParsedPosition>(
     loc.state?.position || undefined
   );
 

@@ -11,7 +11,7 @@ export const ROUTES = {
 
 export const Router = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/defi-scroller">
       <Routes>
         <Route path={ROUTES.MAIN} element={<MainPage />} />
         <Route path={ROUTES.SEARCHED} element={<SearchedPage />} />

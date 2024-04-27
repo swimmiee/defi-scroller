@@ -2,6 +2,7 @@ import { ROUTES } from "Router";
 import { Search } from "components/features/Search";
 import { Link } from "react-router-dom";
 import { cn } from "utils/cn";
+import ScrollLogo from "assets/ScrollLogo.png";
 
 interface HeaderProps {
   address: string;
@@ -19,7 +20,7 @@ export const Header = ({ short, address }: HeaderProps) => {
         <p className={cn(short ? "text-4xl mr-3" : "text-6xl mr-6", "font-medium leading-none")}>
           Best DeFi Tracker Ever on
         </p>
-        <img className={short?"h-7 mb-0.5":"h-10 mb-1"} src="/img/ScrollLogo.png" />
+        <img className={short?"h-7 mb-0.5":"h-10 mb-1"} src={ScrollLogo} />
       </Link>
 
       <Search address={address} />
